@@ -1,3 +1,3 @@
-export default function getStudentsByLocation(students, city) {
-  return students.filter((student) => student.location.localeCompare(city) === city);
-}
+const getStudentsByLocation = (students, city) => students.filter((s) => s.location === city);
+
+export default getStudentsByLocation;

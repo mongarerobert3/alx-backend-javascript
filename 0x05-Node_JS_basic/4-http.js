@@ -11,7 +11,4 @@ const app = http.createServer((req, res) => {
 // Listen on port 8080, IP defaults to 127.0.0.1
 app.listen(1245);
 
-// Put a friendly message on the terminal
-console.log('Server running at http://127.0.0.1:8080/');
-
 module.exports = app;
